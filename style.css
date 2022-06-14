@@ -1,13 +1,5 @@
-.header {
-    border: 1px solid red;
-}
-
-.footer {
-    border: 1 solid blue;
-}
-
 .nav {
-    background-color: aquamarine;
+    background-color: rgb(104, 131, 167);
 }
 
 .nav-list {
@@ -21,6 +13,7 @@
     padding: 0 25px;
     line-height: 50px;
     transition: .3s;
+    color: antiquewhite;
 }
 
 .section-item a {
@@ -52,4 +45,8 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.round {
+    border-radius: 50%;
 }
