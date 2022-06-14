@@ -1,1 +1,55 @@
-style
+.header {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1 solid blue;
+}
+
+.nav {
+    background-color: aquamarine;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section-item a {
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.section-title {
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
